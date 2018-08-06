@@ -34,7 +34,7 @@ module.exports = env => {
   const mergedConfig = webpackMerge(
     commonConfig,
     envConfig,
-    ...addons(env.addons)
+    ...addons(process.env.addons)
   );
 
   // 웹팩 최종 구성을 반환한다.

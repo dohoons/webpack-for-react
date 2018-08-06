@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --env.env=dev",
-    "dev:bundleanalyzer": "yarn dev --env.addons=bundleanalyzer",
+    "dev:bundleanalyzer": "cross-env addons=bundleanalyzer npm run dev",
     "prebuild": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack -p --env.env=prod",
-    "build:bundleanalyzer": "yarn build --env.addons=bundleanalyzer"
+    "build:bundleanalyzer": "cross-env addons=bundleanalyzer npm run build"
   },
   "keywords": [],
   "author": "",
