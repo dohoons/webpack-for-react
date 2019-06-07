@@ -23,9 +23,9 @@
     "semantic-ui-react": "^0.84.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.4.5",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.4.8",
     "babel-loader": "^8.0.5",
@@ -39,9 +39,9 @@
     "rimraf": "^2.6.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.4",
-    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14",
+    "webpack-dev-server": "^3.7.0",
     "webpack-merge": "^4.2.1"
   }
 }
